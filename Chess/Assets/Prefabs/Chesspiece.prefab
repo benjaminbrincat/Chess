@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2013114397025955787}
   - component: {fileID: 6280741823564461680}
-  - component: {fileID: 3219541053388300459}
   - component: {fileID: 4879155465620003447}
+  - component: {fileID: 3812250975787549514}
   m_Layer: 0
   m_Name: Chesspiece
   m_TagString: Untagged
@@ -84,32 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3219541053388300459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5042773617891229467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad484ca9a8b00314c96459e5c20340b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 0}
-  movePlate: {fileID: 4727648631838002516, guid: 4b97f5f96f4ba5849be01159e43ff0a9, type: 3}
-  white_queen: {fileID: 21300000, guid: 6ff4a86bc8281e846b1bc08f7f092afe, type: 3}
-  white_king: {fileID: 21300000, guid: 43fcb0b34fb43c844b1a3e90d3d1063a, type: 3}
-  white_knight: {fileID: 21300000, guid: 08065141c863f8747a1c147f33a5f9fb, type: 3}
-  white_bishop: {fileID: 21300000, guid: 47d64cf5f170d0345b9acfed8461badd, type: 3}
-  white_rook: {fileID: 21300000, guid: 35b8110d0cc27c7479d95bdc880a5849, type: 3}
-  white_pawn: {fileID: 21300000, guid: a71edfcde31f2984e9d949f634c3f1de, type: 3}
-  black_queen: {fileID: 21300000, guid: 39744f3056c1a3b45aef52e17d3f752c, type: 3}
-  black_king: {fileID: 21300000, guid: 83f8a3ee0e56d2243b06e4770a5f9aa9, type: 3}
-  black_knight: {fileID: 21300000, guid: 73094a3ae225e1146a17cce052861324, type: 3}
-  black_bishop: {fileID: 21300000, guid: 4180c9f99cdeff244a3ef808d22232ef, type: 3}
-  black_rook: {fileID: 21300000, guid: 69a7d4c7bdad06e499d0b345c00fc0ab, type: 3}
-  black_pawn: {fileID: 21300000, guid: b1febf5bb06bdfb4982797e956dd0ea6, type: 3}
 --- !u!61 &4879155465620003447
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -136,3 +110,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
+--- !u!114 &3812250975787549514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5042773617891229467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 664e782ff14c3a04c959275227e71760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  movePlate: {fileID: 4727648631838002516, guid: 4b97f5f96f4ba5849be01159e43ff0a9, type: 3}
+  black_queen: {fileID: 21300000, guid: 39744f3056c1a3b45aef52e17d3f752c, type: 3}
+  black_knight: {fileID: 21300000, guid: 73094a3ae225e1146a17cce052861324, type: 3}
+  black_bishop: {fileID: 21300000, guid: 4180c9f99cdeff244a3ef808d22232ef, type: 3}
+  black_king: {fileID: 21300000, guid: 83f8a3ee0e56d2243b06e4770a5f9aa9, type: 3}
+  black_rook: {fileID: 21300000, guid: 69a7d4c7bdad06e499d0b345c00fc0ab, type: 3}
+  black_pawn: {fileID: 21300000, guid: b1febf5bb06bdfb4982797e956dd0ea6, type: 3}
+  white_queen: {fileID: 21300000, guid: 6ff4a86bc8281e846b1bc08f7f092afe, type: 3}
+  white_knight: {fileID: 21300000, guid: 08065141c863f8747a1c147f33a5f9fb, type: 3}
+  white_bishop: {fileID: 21300000, guid: 47d64cf5f170d0345b9acfed8461badd, type: 3}
+  white_king: {fileID: 21300000, guid: 43fcb0b34fb43c844b1a3e90d3d1063a, type: 3}
+  white_rook: {fileID: 21300000, guid: 35b8110d0cc27c7479d95bdc880a5849, type: 3}
+  white_pawn: {fileID: 21300000, guid: a71edfcde31f2984e9d949f634c3f1de, type: 3}
